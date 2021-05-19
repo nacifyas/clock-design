@@ -38,12 +38,22 @@ body {
 .num10 { --angle: 300deg }
 .num11 { --angle: 330deg }
 
-.clock::content {
+.minute {
     position: absolute;
-    --diam: 15px;
+    height: 100px;
+    width: 2px;
     background-color: black;
-    border: red dashed 1px;
-    border-radius: 50%;
-    height: var(--diam);
-    width: var(--diam);
+}
+
+.hour {
+    position: absolute;
+    height: 80px;
+    width: 2px;
+    background-color: rgb(61, 36, 36);
+}
+
+.hand {
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
 }

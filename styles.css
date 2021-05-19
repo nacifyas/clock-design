@@ -32,17 +32,18 @@ body {
     transform: rotate(var(--angle));
 }
 
-.num1 { --angle: 30deg }
-.num2 { --angle: 60deg }
-.num3 { --angle: 90deg }
-.num4 { --angle: 120deg }
-.num5 { --angle: 150deg }
-.num6 { --angle: 180deg }
-.num7 { --angle: 210deg }
-.num8 { --angle: 240deg }
-.num9 { --angle: 270deg }
-.num10 { --angle: 300deg }
-.num11 { --angle: 330deg }
+.num1 { --angle: 0deg }
+.num2 { --angle: 16.37deg }
+.num3 { --angle: 32.73deg }
+.num4 { --angle: 49.1deg }
+.num5 { --angle: 65.47deg }
+.num6 { --angle: 81.84deg }
+.num7 { --angle: 98.21deg }
+.num8 { --angle: 114.58deg }
+.num9 { --angle: 130.95deg }
+.num10 { --angle: 147.32deg }
+.num11 { --angle: 163.69deg }
+.num12 { --angle: 180deg }
 
 .second {
     height: 123px;

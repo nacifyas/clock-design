@@ -158,7 +158,7 @@ body {
 }
 
 .minute-hand {
-    --rotation: -29;
+    --rotation: -27;
     position: absolute;
     transform-origin: bottom;
     height: 165px;
@@ -167,7 +167,7 @@ body {
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     z-index: 9;
-    bottom: 49.2%;
+    bottom: 49.3%;
     left: 50%;
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
 }
@@ -261,25 +261,65 @@ body {
     top: 1%;
 }
 
-/* 2deg betweem each element */
+/* 2.1525deg betweem each element */
 
-.mins1 { --angle: -29deg }
-.mins2 { --angle: -31deg }
-.mins3 { --angle: -33deg }
-.mins4 { --angle: -35deg }
-.min-num5 { --angle: -37deg }
-.mins6 { --angle: -39deg }
-.mins7 { --angle: -41deg }
-.mins8 { --angle: -43deg }
-.mins9 { --angle: -45deg }
-.min-num10 { --angle: -47deg }
-.mins11 { --angle: -49deg }
-.mins12{ --angle: -51deg }
-.mins13 { --angle: -53deg }
-.mins14 { --angle: -55deg }
-.min-num15 { --angle: -57deg }
-.mins16 { --angle: -59deg }
-.mins17 { --angle: -61deg }
-.mins18 { --angle: -63deg }
-.mins19 { --angle: -65deg }
-.min-num20 { --angle: -67deg }
+.mins1 { --angle: -27deg }
+.mins2 { --angle: -29.1525423deg }
+.mins3 { --angle: -31.3050846deg }
+.mins4 { --angle: -33.4576269deg }
+.min-num5 { --angle: -35.6101692deg }
+.mins6 { --angle: -37.7627115deg }
+.mins7 { --angle: -39.9152538deg }
+.mins8 { --angle: -42.0677961deg }
+.mins9 { --angle: -44.2203384deg }
+.min-num10 { --angle: -46.3728807deg }
+.mins11 { --angle: -48.525423deg }
+.mins12{ --angle: -50.6779653deg }
+.mins13 { --angle: -52.8305076deg }
+.mins14 { --angle: -54.9830499deg }
+.min-num15 { --angle: -57.1355922deg }
+.mins16 { --angle: -59.2881345deg }
+.mins17 { --angle: -61.4406768deg }
+.mins18 { --angle: -63.5932191deg }
+.mins19 { --angle: -65.7457614deg }
+.min-num20 { --angle: -67.8983037deg }
+.mins21 { --angle: -70.050846deg }
+.mins22 { --angle: -72.2033883deg }
+.mins23 { --angle: -74.3559306deg }
+.mins24 { --angle: -76.5084729deg }
+.min-num25 { --angle: -78.6610152deg }
+.mins26 { --angle: -80.8135575deg }
+.mins27 { --angle: -82.9660998deg }
+.mins28 { --angle: -85.11864217288136deg }
+.mins29 { --angle: -87.27118454576271deg }
+.min-num30 { --angle: -89.42372691864407deg }
+.mins31 { --angle: -91.57626929152542deg }
+.mins32{ --angle: -93.72881166440678deg }
+.mins33 { --angle: -95.88135403728814deg }
+.mins34 { --angle: -98.03389641016949deg }
+.min-num35 { --angle: -100.1864387830508deg }
+.mins36 { --angle: -102.3389811559322deg }
+.mins37 { --angle: -104.4915235288136deg }
+.mins38 { --angle: -106.6440659016949deg }
+.mins39 { --angle: -108.7966082745763deg }
+.min-num40 { --angle: -110.9491506474576deg }
+.mins41 { --angle: -113.101693020339deg }
+.mins42 { --angle: -115.2542353932203deg }
+.mins43 { --angle: -117.4067777661017deg }
+.mins44 { --angle: -119.5593201389831deg }
+.min-num45 { --angle: -121.7118625118644deg }
+.mins46 { --angle: -123.8644048847458deg }
+.mins47 { --angle: -126.0169472576271deg }
+.mins48 { --angle: -128.1694896305085deg }
+.mins49 { --angle: -130.3220320033898deg }
+.min-num50 { --angle: -132.4745743762712deg }
+.mins51 { --angle: -134.6271167491525deg }
+.mins52{ --angle: -136.7796591220339deg }
+.mins53 { --angle: -138.9322014949153deg }
+.mins54 { --angle: -141.0847438677967deg }
+.min-num55 { --angle: -143.237286240678deg }
+.mins56 { --angle: -145.3898286135594deg }
+.mins57 { --angle: -147.5423709864407deg }
+.mins58 { --angle: -149.6949133593221deg }
+.mins59 { --angle: -151.8474557322034deg }
+.min-num60 { --angle: -154deg }

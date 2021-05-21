@@ -32,18 +32,82 @@ body {
     transform: rotate(var(--angle));
 }
 
+.instant {
+    --inst-angle: 0deg;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: rotate(var(--inst-angle));
+}
+
+.inst-shape {
+    height: 12px;
+    width: 1.3px;
+    background-color: white;
+    border-radius: 50%;
+}
+
 .sec-num60 { --angle: 0deg }
+.ins1 { --inst-angle: 6deg }
+.ins2 { --inst-angle: 12deg }
+.ins3 { --inst-angle: 18deg }
+.ins4 { --inst-angle: 24deg }
 .sec-num5 { --angle: 30deg }
+.ins6 { --inst-angle: 36deg }
+.ins7 { --inst-angle: 42deg }
+.ins8 { --inst-angle: 48deg }
+.ins9 { --inst-angle: 54deg }
 .sec-num10 { --angle: 60deg }
+.ins11 { --inst-angle: 66deg }
+.ins12 { --inst-angle: 72deg }
+.ins13 { --inst-angle: 78deg }
+.ins14 { --inst-angle: 84deg }
 .sec-num15 { --angle: 90deg }
+.ins16 { --inst-angle: 96deg }
+.ins17 { --inst-angle: 102deg }
+.ins18 { --inst-angle: 108deg }
+.ins19 { --inst-angle: 114deg }
 .sec-num20 { --angle: 120deg }
+.ins21 { --inst-angle: 126deg }
+.ins22 { --inst-angle: 132deg }
+.ins23 { --inst-angle: 138deg }
+.ins24 { --inst-angle: 144deg }
 .sec-num25 { --angle: 150deg }
+.ins26 { --inst-angle: 156deg }
+.ins27 { --inst-angle: 162deg }
+.ins28 { --inst-angle: 168deg }
+.ins29 { --inst-angle: 174deg }
 .sec-num30 { --angle: 180deg }
+.ins31 { --inst-angle: 186deg }
+.ins32 { --inst-angle: 192deg }
+.ins33 { --inst-angle: 198deg }
+.ins34 { --inst-angle: 204deg }
 .sec-num35 { --angle: 210deg }
+.ins36 { --inst-angle: 186deg }
+.ins37 { --inst-angle: 192deg }
+.ins38 { --inst-angle: 198deg }
+.ins39 { --inst-angle: 204deg }
 .sec-num40 { --angle: 240deg }
+.ins41 { --inst-angle: 246deg }
+.ins42 { --inst-angle: 252deg }
+.ins43 { --inst-angle: 258deg }
+.ins44 { --inst-angle: 264deg }
 .sec-num45 { --angle: 270deg }
+.ins46 { --inst-angle: 276deg }
+.ins47 { --inst-angle: 282deg }
+.ins48 { --inst-angle: 288deg }
+.ins49 { --inst-angle: 294deg }
 .sec-num50 { --angle: 300deg }
+.ins51 { --inst-angle: 306deg }
+.ins52 { --inst-angle: 312deg }
+.ins53 { --inst-angle: 318deg }
+.ins54 { --inst-angle: 324deg }
 .sec-num55 { --angle: 330deg }
+.ins56 { --inst-angle: 336deg }
+.ins57 { --inst-angle: 342deg }
+.ins58 { --inst-angle: 348deg }
+.ins59 { --inst-angle: 354deg }
 
 .second-hand {
     height: 190px;

@@ -57,7 +57,7 @@ body {
 .ins3 { --angle: 18deg }
 .ins4 { --angle: 24deg }
 .sec-num5 { --angle: 30deg }
-/*.ins6 { --angle: 36deg }*/
+.ins6 { --angle: 36deg }
 .ins7 { --angle: 42deg }
 .ins8 { --angle: 48deg }
 .ins9 { --angle: 54deg }
@@ -75,7 +75,7 @@ body {
 .ins21 { --angle: 126deg }
 .ins22 { --angle: 132deg }
 .ins23 { --angle: 138deg }
-/*.ins24 { --angle: 144deg }*/
+.ins24 { --angle: 144deg }
 .sec-num25 { --angle: 150deg }
 .ins26 { --angle: 156deg }
 .ins27 { --angle: 162deg }
@@ -87,8 +87,8 @@ body {
 .ins33 { --angle: 198deg }
 .ins34 { --angle: 204deg }
 .sec-num35 { --angle: 210deg }
-/*.ins36 { --angle: 216deg }*/
-    .ins37 { --angle: 222deg }
+.ins36 { --angle: 216deg }
+.ins37 { --angle: 222deg }
 .ins38 { --angle: 228deg }
 .ins39 { --angle: 234deg }
 .sec-num40 { --angle: 240deg }
@@ -105,7 +105,7 @@ body {
 .ins51 { --angle: 306deg }
 .ins52 { --angle: 312deg }
 .ins53 { --angle: 318deg }
-/*.ins54 { --angle: 324deg }*/
+.ins54 { --angle: 324deg }
 .sec-num55 { --angle: 330deg }
 .ins56 { --angle: 336deg }
 .ins57 { --angle: 342deg }
@@ -122,15 +122,15 @@ body {
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
     transform-origin: bottom;
     height: 185px;
-    width: 1px;
-    background-color: rgb(0, 97, 29);
+    width: 2.4px;
+    background-color: rgb(63, 45, 42);
     z-index: 10;
 }
 
 .second-clock::after {
     content: "";
     position: absolute;
-    background-color: rgb(0, 97, 29);
+    background-color: rgb(63, 45, 42);
     z-index: 11;
     width: 6px;
     height: 6px;
@@ -158,16 +158,16 @@ body {
 }
 
 .minute-hand {
-    --rotation: 0;
+    --rotation: -29;
     position: absolute;
     transform-origin: bottom;
-    height: 172px;
-    width: 2px;
-    background-color: rgb(22, 22, 41);
+    height: 165px;
+    width: 3px;
+    background-color: rgb(26, 26, 53);
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-    bottom: 50%;
     z-index: 9;
+    bottom: 49.2%;
     left: 50%;
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
 }
@@ -192,8 +192,8 @@ body {
     position: absolute;
     background-color: rgb(36, 43, 51);
     border-radius: 100%;
-    width: 4.7px;
-    height: 4.7px;
+    width: 5.3px;
+    height: 5.3px;
     z-index: 10;
     top: 50%;
     bottom: 50%;
@@ -203,16 +203,16 @@ body {
 }
 
 .hour-hand {
-    --rotation: 0;
+    --rotation: 150;
     position: absolute;
     transform-origin: bottom;
-    height: 172px;
-    width: 2px;
-    background-color: rgb(36, 43, 51);
+    height: 160px;
+    width: 4px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-    bottom: 50%;
+    background-color: rgb(36, 43, 51);
     z-index: 9;
+    bottom: 49.2%;
     left: 50%;
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
 }
@@ -248,3 +248,38 @@ body {
 .hour-num10 { --angle: 128deg }
 .hour-num11 { --angle: 139deg }
 .hour-num12 { --angle: 150deg }
+
+
+.minst-shape {
+    position: absolute;
+    height: 7.4px;
+    width: .65px;
+    background-color: white;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1%;
+}
+
+/* 2deg betweem each element */
+
+.mins1 { --angle: -29deg }
+.mins2 { --angle: -31deg }
+.mins3 { --angle: -33deg }
+.mins4 { --angle: -35deg }
+.min-num5 { --angle: -37deg }
+.mins6 { --angle: -39deg }
+.mins7 { --angle: -41deg }
+.mins8 { --angle: -43deg }
+.mins9 { --angle: -45deg }
+.min-num10 { --angle: -47deg }
+.mins11 { --angle: -49deg }
+.mins12{ --angle: -51deg }
+.mins13 { --angle: -53deg }
+.mins14 { --angle: -55deg }
+.min-num15 { --angle: -57deg }
+.mins16 { --angle: -59deg }
+.mins17 { --angle: -61deg }
+.mins18 { --angle: -63deg }
+.mins19 { --angle: -65deg }
+.min-num20 { --angle: -67deg }

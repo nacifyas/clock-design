@@ -186,6 +186,7 @@ body {
     bottom: 50%;
     transform: translate(-50%, -50%);
     left: 98%;
+    top: 49.6%;
 }
 
 .hour-clock::after {
@@ -202,7 +203,6 @@ body {
     left: 50%;
     transform: translateX(-50%); 
 }
-
 
 .hour-hand {
     --rotation: 0;
@@ -221,7 +221,6 @@ body {
 
 .hour-clock {
     position: relative;
-    left: 100%;
     border-radius: 50%;
     border: dashed rgba(255,255,255,.6) 1.6px;
     --diam: 350px;
@@ -230,6 +229,7 @@ body {
     top: 50%;
     bottom: 50%;
     transform: translate(-50%, -50%);
-    left: 98%;
+    left: 2%;
+    top: -39%;
 }
 

@@ -57,7 +57,7 @@ body {
 .ins3 { --angle: 18deg }
 .ins4 { --angle: 24deg }
 .sec-num5 { --angle: 30deg }
-.ins6 { --angle: 36deg }
+/*.ins6 { --angle: 36deg }*/
 .ins7 { --angle: 42deg }
 .ins8 { --angle: 48deg }
 .ins9 { --angle: 54deg }
@@ -75,7 +75,7 @@ body {
 .ins21 { --angle: 126deg }
 .ins22 { --angle: 132deg }
 .ins23 { --angle: 138deg }
-.ins24 { --angle: 144deg }
+/*.ins24 { --angle: 144deg }*/
 .sec-num25 { --angle: 150deg }
 .ins26 { --angle: 156deg }
 .ins27 { --angle: 162deg }
@@ -87,8 +87,8 @@ body {
 .ins33 { --angle: 198deg }
 .ins34 { --angle: 204deg }
 .sec-num35 { --angle: 210deg }
-.ins36 { --angle: 216deg }
-.ins37 { --angle: 222deg }
+/*.ins36 { --angle: 216deg }*/
+    .ins37 { --angle: 222deg }
 .ins38 { --angle: 228deg }
 .ins39 { --angle: 234deg }
 .sec-num40 { --angle: 240deg }
@@ -105,7 +105,7 @@ body {
 .ins51 { --angle: 306deg }
 .ins52 { --angle: 312deg }
 .ins53 { --angle: 318deg }
-.ins54 { --angle: 324deg }
+/*.ins54 { --angle: 324deg }*/
 .sec-num55 { --angle: 330deg }
 .ins56 { --angle: 336deg }
 .ins57 { --angle: 342deg }
@@ -236,15 +236,15 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
-.hour-num1 { --angle: 30deg }
-.hour-num2 { --angle: 41deg }
-.hour-num3 { --angle: 52deg }
-.hour-num4 { --angle: 63deg }
-.hour-num5 { --angle: 74deg }
-.hour-num6 { --angle: 85deg }
-.hour-num7 { --angle: 96deg }
-.hour-num8 { --angle: 107deg }
-.hour-num9 { --angle: 118deg }
-.hour-num10 { --angle: 129deg }
-.hour-num11 { --angle: 140deg }
-.hour-num12 { --angle: 151deg }
+.hour-num1 { --angle: 29deg }
+.hour-num2 { --angle: 40deg }
+.hour-num3 { --angle: 51deg }
+.hour-num4 { --angle: 62deg }
+.hour-num5 { --angle: 73deg }
+.hour-num6 { --angle: 84deg }
+.hour-num7 { --angle: 95deg }
+.hour-num8 { --angle: 106deg }
+.hour-num9 { --angle: 117deg }
+.hour-num10 { --angle: 128deg }
+.hour-num11 { --angle: 139deg }
+.hour-num12 { --angle: 150deg }

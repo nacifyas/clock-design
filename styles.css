@@ -1,5 +1,5 @@
 body {
-    background: gray;
+    background: rgb(160, 156, 156);
     position: relative;
     display: flex;
     justify-content: center;
@@ -112,27 +112,6 @@ body {
 .ins58 { --angle: 348deg }
 .ins59 { --angle: 354deg }
 
-.second-hand {
-    height: 190px;
-    width: 1px;
-    background-color: rgb(207, 70, 2);
-    z-index: 10;
-}
-
-.minute {
-    height: 118px;
-    width: 2px;
-    background-color: rgb(14, 11, 11);
-    z-index: 10;
-}
-
-.hour {
-    height: 90px;
-    width: 2.7px;
-    background-color: rgb(61, 36, 36);
-    z-index: 9;
-}
-
 .hand {
     --rotation: 0;
     bottom: 50%;
@@ -144,10 +123,31 @@ body {
     transform-origin: bottom;
 }
 
-.clock-shape::after {
+.second-hand {
+    height: 185px;
+    width: 1px;
+    background-color: rgb(0, 97, 29);
+    z-index: 10;
+}
+
+.minute {
+    height: 118px;
+    width: 2px;
+    background-color: rgb(24, 18, 18);
+    z-index: 9;
+}
+
+.hour {
+    height: 90px;
+    width: 2.7px;
+    background-color: rgb(25, 29, 34);
+    z-index: 8;
+}
+
+.minute-clock-shape::after {
     content: "";
     position: absolute;
-    background-color: rgb(207, 70, 2);
+    background-color: rgb(0, 97, 29);
     z-index: 11;
     width: 6px;
     height: 6px;

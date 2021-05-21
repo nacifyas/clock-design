@@ -19,6 +19,7 @@ body {
     border: rgba(255,255,255,.8) solid .7px;
     border-radius: 50%;
     position: relative;
+    overflow: hidden;
 }
 
 .number {
@@ -161,7 +162,7 @@ body {
     --rotation: -27;
     position: absolute;
     transform-origin: bottom;
-    height: 165px;
+    height: 169px;
     width: 3px;
     background-color: rgb(26, 26, 53);
     border-top-right-radius: 50%;
@@ -206,7 +207,7 @@ body {
     --rotation: 150;
     position: absolute;
     transform-origin: bottom;
-    height: 160px;
+    height: 153px;
     width: 4px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -233,7 +234,6 @@ body {
 
 .hour {
     font-size: large;
-    font-family: 'Heebo', sans-serif;
 }
 
 .hour-num1 { --angle: 29deg }
@@ -252,16 +252,16 @@ body {
 
 .minst-shape {
     position: absolute;
-    height: 7.4px;
-    width: .65px;
-    background-color: white;
+    height: 3px;
+    width: 1.2px;
+    background-color: rgba(255, 255, 255, 0.665);
     border-radius: 50%;
     left: 50%;
     transform: translateX(-50%);
     top: 1%;
 }
 
-/* 2.1525deg betweem each element */
+/* ~2.1525deg betweem each element */
 
 .mins1 { --angle: -27deg }
 .mins2 { --angle: -29.1525423deg }
@@ -323,3 +323,9 @@ body {
 .mins58 { --angle: -149.6949133593221deg }
 .mins59 { --angle: -151.8474557322034deg }
 .min-num60 { --angle: -154deg }
+
+.min {
+    top: -0.2%;
+    right: -.2%;
+    font-size: 9px;
+}

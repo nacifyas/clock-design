@@ -12,7 +12,7 @@ body {
     transform: translateX(-50%);
 }
 
-.minute-clock-shape {
+.second-clock-shape {
     --diam: 400px;
     width: var(--diam);
     height: var(--diam);
@@ -116,9 +116,9 @@ body {
     --rotation: 0;
     bottom: 50%;
     position: absolute;
-    left: 50%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+    left: 50%;
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
     transform-origin: bottom;
 }
@@ -130,18 +130,46 @@ body {
     z-index: 10;
 }
 
-.minute {
-    height: 118px;
+.minute-hand {
+    height: 128px;
     width: 2px;
-    background-color: rgb(24, 18, 18);
+    background-color: rgb(22, 22, 41);
     z-index: 9;
+    left: 100%;
 }
 
-.hour {
-    height: 90px;
+.minute-hand::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(22, 22, 41);
+    border-radius: 50%;
+    width: 4.7px;
+    height: 4.7px;
+    z-index: 10;
+    bottom: -2%;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.hour-hand {
+    height: 138px;
     width: 2.7px;
-    background-color: rgb(25, 29, 34);
-    z-index: 8;
+    background-color: rgb(36, 43, 51);
+    z-index: 9;
+    left: 0%;
+}
+
+.hour-hand::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(36, 43, 51);
+    border-radius: 50%;
+    width: 4.7px;
+    height: 4.7px;
+    z-index: 10;
+    bottom: -2%;
+    left: 50%;
+    transform: translateX(-50%); 
 }
 
 .minute-clock-shape::after {

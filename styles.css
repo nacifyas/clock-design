@@ -127,7 +127,6 @@ body {
     z-index: 10;
 }
 
-
 .second-clock::after {
     content: "";
     position: absolute;
@@ -157,7 +156,6 @@ body {
     left: 50%;
     transform: translateX(-50%); 
 }
-
 
 .minute-hand {
     --rotation: 0;
@@ -233,3 +231,20 @@ body {
     top: -39%;
 }
 
+.hour {
+    font-size: large;
+    font-family: 'Heebo', sans-serif;
+}
+
+.hour-num1 { --angle: 30deg }
+.hour-num2 { --angle: 41deg }
+.hour-num3 { --angle: 52deg }
+.hour-num4 { --angle: 63deg }
+.hour-num5 { --angle: 74deg }
+.hour-num6 { --angle: 85deg }
+.hour-num7 { --angle: 96deg }
+.hour-num8 { --angle: 107deg }
+.hour-num9 { --angle: 118deg }
+.hour-num10 { --angle: 129deg }
+.hour-num11 { --angle: 140deg }
+.hour-num12 { --angle: 151deg }

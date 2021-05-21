@@ -12,11 +12,11 @@ body {
     transform: translateX(-50%);
 }
 
-.clock-shape {
-    --diam: 270px;
+.minute-clock-shape {
+    --diam: 400px;
     width: var(--diam);
     height: var(--diam);
-    border: rgba(255,255,255,.8) solid 1px;
+    border: rgba(255,255,255,.8) solid .7px;
     border-radius: 50%;
     position: relative;
 }
@@ -32,21 +32,21 @@ body {
     transform: rotate(var(--angle));
 }
 
-.num1 { --angle: 0deg }
-.num2 { --angle: 16.37deg }
-.num3 { --angle: 32.73deg }
-.num4 { --angle: 49.1deg }
-.num5 { --angle: 65.47deg }
-.num6 { --angle: 81.84deg }
-.num7 { --angle: 98.21deg }
-.num8 { --angle: 114.58deg }
-.num9 { --angle: 130.95deg }
-.num10 { --angle: 147.32deg }
-.num11 { --angle: 163.69deg }
-.num12 { --angle: 180deg }
+.sec-num60 { --angle: 0deg }
+.sec-num5 { --angle: 30deg }
+.sec-num10 { --angle: 60deg }
+.sec-num15 { --angle: 90deg }
+.sec-num20 { --angle: 120deg }
+.sec-num25 { --angle: 150deg }
+.sec-num30 { --angle: 180deg }
+.sec-num35 { --angle: 210deg }
+.sec-num40 { --angle: 240deg }
+.sec-num45 { --angle: 270deg }
+.sec-num50 { --angle: 300deg }
+.sec-num55 { --angle: 330deg }
 
-.second {
-    height: 123px;
+.second-hand {
+    height: 190px;
     width: 1px;
     background-color: rgb(207, 70, 2);
     z-index: 10;

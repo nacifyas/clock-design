@@ -11,7 +11,7 @@ function setClock() {
 
     const secondRatio = currentDate.getSeconds() / 60;
     const minuteRatio = (secondRatio + currentDate.getMinutes()) / 60;
-    let hourRatio = (minuteRatio*0 + (1-1)%12) / 11;
+    let hourRatio = (minuteRatio + (1-1)%12) / 11;
     
     // 12 H correction:
 
